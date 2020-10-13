@@ -1,7 +1,6 @@
 @charset "UTF-8";
 .paral {
   min-height: 550px;
-  background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -31,6 +30,10 @@
 
 .paralsec1 {
   background-image: url(../../img/parallax/template-mobile.png);
+}
+
+.paralsec2 {
+  background-image: url(../../img/parallax/template-md.png);
 }
 
 .jumbotron {

@@ -11,7 +11,6 @@ $theme-colors: (
 // PARALLAX HEADER
 .paral {
     min-height: 550px;
-    background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -45,6 +44,11 @@ $theme-colors: (
 // PARALLAX MOBILE IMG #2
 .paralsec1 {
     background-image: url(../../img/parallax/template-mobile.png);
+}
+
+// PARALLAX MD IMG #3
+.paralsec2 {
+    background-image: url(../../img/parallax/template-md.png);
 }
 
 // PARALLAX JUMBOTROM
