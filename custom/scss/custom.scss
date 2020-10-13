@@ -14,24 +14,27 @@ $theme-colors: (
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
-    line-height: 550px;
 }
 
 // PARALLAX TEXT
 .paral p {
     color: #f5f5f5;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    line-height: 550px;
 }
 
 // PARALLAX H1
 .paral h1 {
     color: rgba(255, 255, 255, 0.8);
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;line-height: 550px;
+    align-items: center;
+    margin-top: 10%;
 }
 
 // PARALLAX IMG #1
