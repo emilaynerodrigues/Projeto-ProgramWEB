@@ -1,10 +1,11 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
+
+// Responsive font
 $enable-responsive-font-sizes: true !default;
 
 /* Header Parallax Element Style*/
 .paral {
-    min-height: 550px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -13,14 +14,17 @@ $enable-responsive-font-sizes: true !default;
 /* Paragraph for Parallax Section */
 .paral p {
     color: #f5f5f5;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Heading for Parallax Section */
 .paral h1 {
     color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Image for Parallax Section */
@@ -31,17 +35,18 @@ $enable-responsive-font-sizes: true !default;
     background-image: url(../../img/caurosel/template-degrade.png);
 }
 
-/* Add more images for more sections */
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron {
     margin-bottom: 0;
 }
 
-// cor de danger alterado
+// Alteração de cores
+
 $theme-colors: (
     "primary": #0074d9,
     "danger": #b30179,
+    // danger alterada
 );
 
-
+// Import do Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
