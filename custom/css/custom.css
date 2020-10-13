@@ -26,15 +26,16 @@
 }
 
 .paralsec {
-  background-image: url(../../img/caurosel/template1.png);
+  background-image: url(../../img/parallax/template.png);
 }
 
 .paralsec1 {
-  background-image: url(../../img/caurosel/template-degrade.png);
+  background-image: url(../../img/parallax/template-mobile.png);
 }
 
 .jumbotron {
   margin-bottom: 0;
+  border-radius: 0 !important;
 }
 
 /*!
