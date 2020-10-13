@@ -12,27 +12,29 @@
 
 <body>
     <header>
-        <!--  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a class="navbar-brand ml-2" href="#">
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-sm-start fixed top">
+            <a class="navbar-brand ml-2 order-1 order-lg-0 ml-lg-0 ml-2" href="#">
                 <img src="img/favicon/icon-programweb-danger.png" width="30" height="30"
                     class="d-inline-block align-top" alt="" loading="lazy">
                 ProgramWEB
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler align-self-start" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!-- DROPDOWN -->
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto col-md-9 col-lg-9 col-xl-9  justify-content-end ">
+            <!-- DROPDOWN --> 
+            <div class="collapse navbar-collapse d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end bg-dark p-3 p-lg-0 mt-5 mt-lg-0 mobileMenu" id="navbarSupportedContent">
+                <ul class="navbar-nav align-self-stretch"> <!--retirei mr-auto col-md-9 col-lg-9 col-xl-9  justify-content-end-->>
                     <!-- HTML DROPDOWN -->
-                    <li class="nav-item dropdown d-flex justify-content-center">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             HTML
                         </a>
+
+                        <p>&amp;
+                    
+                        </p>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Tags de cabeçalho</a>
                             <a class="dropdown-item" href="#">Estilo de letras</a>
@@ -50,7 +52,7 @@
                         </div>
                     </li>
                     <!-- CSS DROPDOWN -->
-                    <li class="nav-item dropdown d-flex justify-content-center">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             CSS
@@ -76,7 +78,7 @@
                         </div>
                     </li>
                     <!-- JAVASCRIPT DROPDOWN -->
-                    <li class="nav-item dropdown d-flex justify-content-center">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             JAVASCRIPT
@@ -97,48 +99,51 @@
                         </div>
                     </li>
                     <!-- SOBRE -->
-                    <li class="nav-item d-flex justify-content-center">
+                    <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SOBRE</a>
                     </li>
-                    <li class="nav-item d-flex justify-content-center">
+                    <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTATO</a>
                     </li>
                 </ul>
                 
                 <!-- SEARCH -->
-                <form class="form-inline my-2 my-lg-0 col-md-3 col-lg-3 col-xl-3 ">
+                <form class="form-inline my-2 my-lg-0 ">
                     <input class="form-control mr-sm-2 rounded-pill " type="search" placeholder="Search"
                         aria-label="Search">
                     <button class="btn btn-outline-danger my-2 my-sm-0 rounded-pill " type="submit"><img src="img/bootstrap-icons/search.svg" alt=""></button>
                 </form>
             </div>
         </nav>
-        <!-- PARALLAX HEADER IMG PARA TAMANHOS LG E XL -->
+        <!-- PARALLAX HEADER IMG QUE SÓ SERÁ MOSTRADO EM TAMANHOS LG E XL -->
         <div class="jumbotron paral paralsec d-none d-sm-none d-md-none d-lg-block d-xl-block">
-            <h1 class="display-3">BEM-VINDO AO PROGRAM WEB</h1>
+            <h1 class="display-3">BEM-VINDO(A) AO PROGRAM WEB</h1>
             <p class="lead">Projeto desenvolvido por uma iniciante para outro iniciante</p>
             <p class="lead">
                 <a class="btn btn-info btn-danger btn-danger" href="#" role="button">SAIBA MAIS</a>
             </p>
         </div>
-        <!-- PARALLAC IMG PARA TAMANHOS XM E SM -->
-        <div class="jumbotron paral paralsec1 d-block d-sm-block d-md-none align-items-center justify-content-center">
-            <h1 class="display-3 text-center">BEM-VINDO AO PROGRAM WEB</h1>
+        <!-- PARALLAC IMG QUE SÓ SERÁ MOSTRADO EM TAMANHO SM E MD -->
+        <div class="jumbotron paral paralsec2 d-none d-sm-block d-md-block d-lg-none align-items-center justify-content-center">
+            <h1 class="display-3 text-center">BEM-VINDO(A) AO PROGRAM WEB</h1>
             <p class="lead text-center">Projeto desenvolvido por uma iniciante para outro iniciante</p>
             <p class="lead text-center">
                 <a class="btn btn-info btn-danger btn-danger" href="#" role="button">SAIBA MAIS</a>
             </p>
         </div>
-        <!-- PARALLAC IMG PARA TAMANHO MD -->
-        <div class="jumbotron paral paralsec2 d-none d-sm-none d-md-block d-lg-none align-items-center justify-content-center">
-            <h1 class="display-3 text-center">BEM-VINDO AO PROGRAM WEB</h1>
+        <!-- PARALLAC IMG QUE SÓ SERÁ MOSTRADO EM TAMANHOS XM -->
+        <div class="jumbotron paral paralsec1 d-block d-sm-none d-md-none align-items-center justify-content-center">
+            <h1 class="display-3 text-center">BEM-VINDO(A) AO PROGRAM WEB</h1>
             <p class="lead text-center">Projeto desenvolvido por uma iniciante para outro iniciante</p>
             <p class="lead text-center">
                 <a class="btn btn-info btn-danger btn-danger" href="#" role="button">SAIBA MAIS</a>
             </p>
         </div>
-
     </header>
+    <p>&amp;
+                    
+    </p>
+
     <!-- PRIMEIRO POPPER.JS -- DEPOIS JQUERY -- DEPOIS JAVASCRIPT -->
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>

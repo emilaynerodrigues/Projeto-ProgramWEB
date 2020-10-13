@@ -3,14 +3,14 @@
 $enable-responsive-font-sizes: true !default;
 
 // ALTERAÇÃO DE COLORS
-$theme-colors: (
-    "primary": #0074d9,
+$theme-colors: ("primary": #0074d9,
     "danger": #b30179,
-); 
+);
 
 // PARALLAX HEADER
 .paral {
     min-height: 550px;
+    background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -55,6 +55,46 @@ $theme-colors: (
 .jumbotron {
     margin-bottom: 0;
     border-radius: 0 !important;
+}
+
+@function rem($value) {
+    @return unquote(($value/1px)/16+"rem")
+}
+
+@media (max-width: 992px) {
+    .mobileMenu {
+        transform: translateX(-100%);
+        position: fixed;
+        top: 0px;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        transition: all ease 0.25s;
+
+        &.open {
+            transform: translateX(0%);
+        }
+
+        .navbar-nav {
+            overflow-y: auto;
+        }
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+
+        &.open {
+            display: block;
+            z-index: 1029;
+        }
+    }
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
