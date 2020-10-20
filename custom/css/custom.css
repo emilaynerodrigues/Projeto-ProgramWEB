@@ -6,7 +6,23 @@
   background-position: 50% 50%;
 }
 
+.paral3 {
+  min-height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .paral p {
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.paral3 p {
   color: #f5f5f5;
   display: flex;
   flex-direction: row;
@@ -22,7 +38,17 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 1%;
+}
+
+.paral3 h1 {
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
 }
 
 .paralsec {
@@ -35,6 +61,11 @@
 
 .paralsec2 {
   background-image: url(../../img/parallax/template-md.png);
+}
+
+.paralsec3 {
+  background-image: url(../../img/parallax/header-pages.png);
+  height: 30px;
 }
 
 .jumbotron {
