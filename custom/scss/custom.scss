@@ -81,11 +81,11 @@ $theme-colors: (
 // PARALLAX MD IMG #4 - CONTATO E SOBRE
 .paralsec3 {
     background-image: url(../../img/parallax/header-pages.png);
-    height: 30px;
 }
 
 // PARALLAX JUMBOTROM
 .jumbotron {
+    padding: 10rem 1rem !important;
     margin-bottom: 0;
     border-radius: 0 !important;
 }
