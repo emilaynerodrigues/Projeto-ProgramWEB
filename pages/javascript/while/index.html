@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buttons</title>
+    <title>While</title>
     <!-- favicon do site -->
-    <link rel="icon" " href="../../../img/favicon/icon-programweb-danger.png"> <!-- -->
+    <link rel="icon" " href=" ../../../img/favicon/icon-programweb-danger.png"> <!-- -->
     <link rel="stylesheet" type="text/css" href="../../../custom/css/custom.css">
 </head>
 
@@ -107,9 +107,84 @@
             </div>
         </nav>
     </header>
-    
 
-    
+    <main class="row m-4 m-lg-5">
+        <div class="content ml-lg-5 mr-lg-5 col-12 col-lg-10">
+            <div class="row ml-lg-5">
+                <div class="content-main col col-lg-8">
+                    <!-- PRINCIPAL -->
+                    <div class="card">
+                        <div class="main-card">
+                            <span class="badge badge-pill badge-sucess m-3">javascript-while</span>
+                            <h3 class="ml-3">While: enquanto for verdadeiro</h3>
+                            <div class="form-inline ml-4 mb-2">
+                                <img src="../../../img/icons/avatar.png" class=" mr-2" width="40px" alt="...">
+                                <span>Emilayne Rodrigues</span>
+                            </div>
+                            <div class="img-card d-flex justify-content-center">
+                                <img src="../../../img/javascript/while/while.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text-card m-4 text-justify">
+
+                                <p>A declaração while cria um laço que executa uma rotina especifica enquanto a condição
+                                    de teste for avaliada como verdadeira. A condição é avaliada antes da execução da
+                                    rotina.
+                                    <br><br>
+                                    Ou seja, o while é uma estrutura de repetição, ou loop, que só será parado quando a
+                                    condição
+                                    dada a ele for verdadeira, caso contrário ele ficará se repetindo.
+                                    <br><br>
+                                    Antes de mostrar um exemplo, vamos conhecer a sintaxe de while.
+                                </p>
+                                <h5>Sintaxe de while</h5>
+                                <br>
+                                <pre class="p-3 bg-dark text-warning">
+    while(condição){
+        bloco de comandos que entrará em 
+        loop enquando a condição for falsa
+    }
+    qualquer outro bloco que será executado
+    quando while for finalmente verdadeiro
+</pre>
+                                <p>Vamos a um exemplo simples: criaremos uma mini-programa, onde para sair dele
+                                    precisaremos digitar 0 e enquanto a condição for falsa ele mostrará a mensagem "você
+                                    ainda está no programa" e quando finalmente for verdadeira, ele saíra do programa.</p>
+<pre class="p-3 bg-dark text-warning">
+var sair = Number(prompt("Digite 0 para sair."));
+while (sair != 0) {
+    var sair = Number(prompt("Você ainda está no programa"));
+}
+alert("Você saiu do programa");
+</pre>
+                        <p><a href="mini-programa/index.html" class="text-danger">Clique aqui</a> para ver nosso mini-programa rodando.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ASIDE - AULAS SIMILARES-->
+                <div class="content-aside d-none d-lg-block d-xl-block col-lg-4 col-xl-4">
+                    <div class="card">
+                        <div class="card-content m-3">
+                            <div class="title">
+                                <h4>Aulas similares:</h4>
+                            </div>
+                            <div class="links">
+                                <h5><a href="../../javascript/for/index.html" class="badge badge-danger">For</a></h5>
+                                <h5><a href="../../javascript/if-else/index.html"
+                                        class="badge badge-danger">If...Else</a></h5>
+                                <h5><a href="../../javascript/variaveis/index.html"
+                                        class="badge badge-danger">Variáveis</a></h5>
+                                <h5><a href="../../javascript/switch/index.html" class="badge badge-danger">Switch</a>
+                                </h5>
+                                <h5><a href="../../javascript/do-while/index.html" class="badge badge-danger">Do...While</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
     <footer class="bg-danger">
         <div class="">
             <!-- LOGO FOOTER -->
@@ -123,9 +198,9 @@
             <div class="col p-3 ml-5 d-flex justify-content-start">
                 <span class="">@emilaynx</span>
             </div>
-            <div class="col p-3 mr-5 d-flex justify-content-end"> 
-                <a href="" class="mr-2"><img src="../../../img/icons/instagram.png"  width="30px alt="instagram"></a>
-                <a href="" class="mr-2"><img src="../../../img/icons/face.png"  width="29px alt="facebook"></a>  
+            <div class="col p-3 mr-5 d-flex justify-content-end">
+                <a href="" class="mr-2"><img src="../../../img/icons/instagram.png" width="30px alt=" instagram"></a>
+                <a href="" class="mr-2"><img src="../../../img/icons/face.png" width="29px alt=" facebook"></a>
                 <a href=""><img src="../../../img/icons/twitter.png" width="30px" alt="twitter"></a>
             </div>
         </div>
