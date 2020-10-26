@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Buttons</title>
+    <title>Border</title>
     <!-- favicon do site -->
     <link rel="icon" " href=" ../../../img/favicon/icon-programweb-danger.png"> <!-- -->
     <link rel="stylesheet" type="text/css" href="../../../custom/css/custom.css">
@@ -16,8 +16,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <!-- LOGOTIPO -->
             <a class="navbar-brand ml-lg-0 ml-2 mr-auto " href="../../../index.html">
-                <img src="../../../img/favicon/icon-programweb-danger.png" width="30" height="30" class=" align-top" alt=""
-                    loading="lazy">
+                <img src="../../../img/favicon/icon-programweb-danger.png" width="30" height="30" class=" align-top"
+                    alt="" loading="lazy">
                 ProgramWEB
             </a>
             <!-- BUTTON-TOGGLER -->
@@ -36,7 +36,8 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="../../html/tag-cabecalho/index.html">Tags de cabeçalho</a>
-                            <a class="dropdown-item" href="../../html/formatacao-letras/index.html">Formatação de letras</a>
+                            <a class="dropdown-item" href="../../html/formatacao-letras/index.html">Formatação de
+                                letras</a>
                             <a class="dropdown-item" href="../../html/paragrafos/index.html">Parágrafos</a>
                             <a class="dropdown-item" href="../../html/imagens/index.html">Imagens</a>
                             <a class="dropdown-item" href="../../html/links/index.html">Links</a>
@@ -56,15 +57,12 @@
                             CSS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../../css/linkagem/index.html">Formas de linkar CSS ao HTML</a>
+                            <a class="dropdown-item" href="../../css/linkagem/index.html">Formas de linkar CSS ao
+                                HTML</a>
                             <a class="dropdown-item" href="../../css/seletores/index.html">Seletores</a>
-                            <a class="dropdown-item" href="../../css/espeficificidade/index.html">Especificidade</a>
-                            <a class="dropdown-item" href="../../css/herança/index.html">Herança</a>
                             <a class="dropdown-item" href="../../css/herança/">Border</a>
                             <a class="dropdown-item" href="../../css/font/index.html">Font</a>
                             <a class="dropdown-item" href="../../css/colors/index.html">Colors</a>
-                            <a class="dropdown-item" href="../../css/background/index.html">Background</a>
-                            <a class="dropdown-item" href="../../css/float/index.html">Float</a>
                             <a class="dropdown-item" href="../../css/frameworks/index.html">Frameworks</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../../css/estrutura/index.html">Estrutura padrão</a>
@@ -84,7 +82,6 @@
                             <a class="dropdown-item" href="../../javascript/while/index.html">While</a>
                             <a class="dropdown-item" href="../../javascript/do-while/index.html">Do... While</a>
                             <a class="dropdown-item" href="../../javascript/for/index.html">For</a>
-                            <a class="dropdown-item" href="../../javascript/metodos/index.html">Métodos de interação</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../../javascript/estrutura/index.html">Estrutura padrão</a>
                         </div>
@@ -104,13 +101,134 @@
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search"
                         aria-label="Search">
-                    <button class="btn btn-outline-danger my-2 my-sm-0 rounded-pill" type="submit"><img src="../../../img/icons/search.svg" alt=""></button>
+                    <button class="btn btn-outline-danger my-2 my-sm-0 rounded-pill" type="submit"><img
+                            src="../../../img/icons/search.svg" alt=""></button>
                 </form>
             </div>
         </nav>
     </header>
 
+    <main class="row m-4 m-lg-5">
+        <div class="content ml-lg-5 mr-lg-5 col-12 col-lg-10">
+            <div class="row ml-lg-5">
+                <div class="content-main col col-lg-8">
+                    <!-- PRINCIPAL -->
+                    <div class="card">
+                        <div class="main-card">
+                            <span class="badge badge-pill badge-sucess m-3">css-border</span>
+                            <h3 class="ml-3">Border no CSS</h3>
+                            <div class="form-inline ml-4 mb-2">
+                                <img src="../../../img/icons/avatar.png" class=" mr-2" width="40px" alt="...">
+                                <span>Emilayne Rodrigues</span>
+                            </div>
+                            <div class="img-card d-flex justify-content-center">
+                                <img src="../../../img/css/border/border.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="text-card m-4 text-justify">
+                                <p>As bordas são propriedades comuns em diversos editores de texto e documentos, no CSS
+                                    e HTML não seria diferente. Frequentemente usamos bordas para dar destaques as
+                                    nossas listas, tabelas, barras de navegação, entre outros.
+                                    <br><br>
+                                    Fazer uso delas em nosso documento não é complicado depois que você tem uma certa
+                                    noção de como adicioná-las. Então vamos usar o seguinte exemplo de HTML:
+                                </p>
+                                <pre class="p-3 bg-light text-danger">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-BR"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;BORDER&lt;/title&gt;
+    &lt;link rel="stylesheet" href="estilo.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="caixa1"&gt; CAIXA 1 &lt;/div&gt;
+    &lt;div id="caixa2"&gt; CAIXA 2 &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                                <p><br>
+                                    Lembrar de não esquecer de fazer a ligação do CSS com o HTML, e se caso você não
+                                    souber como fazer isso, <a href="../../css/linkagem/index.html" class="text-sucess">
+                                        clique aqui</a> e não fique perdido no assunto.
+                                    <br><br>
+                                    Voltando ao exemplo, na web ele ficará da seguinte forma:</p>
+                                <div class="img-card d-flex justify-content-center">
+                                    <img src="../../../img/css/border/example.png" class="img-fluid" alt="">
+                                </div>
+                                <p><br>
+                                    Simples, não é mesmo? Agora vamos adicionar, pelo CSS, bordas a este documento. Já
+                                    dentro da nossa folha de estilo, escrevemos as seguintes propriedades. Não se
+                                    preocupe, explicarei o cada um significa.</p>
+                                <pre class="p-3 bg-dark text-white">
+#caixa1{
+    border: 3px solid green;
+}
 
+#caixa2{
+    border-color: hotpink purple hotpink red;
+    border-style: dashed dotted double groove;
+    border-width: 10px 20px 30px 40px;
+}
+</pre>
+                                <p>Agora, na web, ele estará dessa forma:</p>
+                                <div class="img-card d-flex justify-content-center">
+                                    <img src="../../../img/css/border/example1.png" class="img-fluid" alt="">
+                                </div>
+                                <p>Uma loucura, não é? Agora vamos entender o que cada faz. Vamos por ordem:</p>
+                                <ul> #caixa1
+                                    <li>border: --> é a propriedade de bordas, quando ela sozinha podemos definir dentro
+                                        dela o tamanho, espeçura, cores e etc, tudo na mesma propriedade, porém só
+                                        podemos fazer isso uma vez, ou seja, se quisermos adicionar uma cor de um lado e
+                                        outra cor do outro não será possível, haverá um erro;</li>
+                                    <li>3px --> é a espeçura da borda;</li>
+                                    <li>solid --> é a elemento que diz que a borda será sólida, mas existem outros como
+                                        dashed (tracejada), dotted (pontilhada), e etc;</li>
+                                    <li>green --> é a cor da borda;</li>
+                                    <br>
+                                    #caixa2
+                                    <li>border-color: --> é a propriedade específica para colorir a bordar, nela podemos
+                                        adicionar mais de uma cor, como no exemplo.</li>
+                                    <li>border-style: --> é a propriedade que diz respeito ao estilo da borda, se será
+                                        tracejada, pontilhada, e etc, como no exemplo;</li>
+                                    <li>border-width: --> essa propriedade diz respeito a espeçura da borda, ou seja,
+                                        seu grossura.</li>
+                                </ul>
+                                <p><br>
+                                    Conseguiu perceber que dentro das propriedades específicas conseguimos mexer em
+                                    todos os lados da borda? Essa é a maior diferença entre o uso da propriedade border
+                                    e as outras que são mais específicas para cada coisa, mas nem sempre fazemos a
+                                    formatação das bordas em cada lado, mas se caso precisar as propriedades específicas
+                                    estão aí pra isso.
+                                    <br><br>
+                                Lembrando que as tags, ou os lados dela, são estilizadas em sentido anti-horario(top>right>bottom>left).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ASIDE - AULAS SIMILARES-->
+                <div class="content-aside d-none d-lg-block d-xl-block col-lg-4 col-xl-4">
+                    <div class="card">
+                        <div class="card-content m-3">
+                            <div class="title">
+                                <h4>Aulas similares:</h4>
+                            </div>
+                            <div class="links">
+                                <h5><a href="../../css/seletores/index.html" class="badge badge-danger">Seletores no
+                                        CSS</a></h5>
+                                <h5><a href="../../css/colors/index.html" class="badge badge-danger">Cores no CSS</a>
+                                </h5>
+                                <h5><a href="../../css/font/index.html" class="badge badge-danger">Fonts no CSS</a></h5>
+                                <h5><a href="../../css/frameworks/index.html" class="badge badge-danger">Frameworks
+                                        CSS</a></h5>
+                                <h5><a href="../../css/estrutura/index.html" class="badge badge-danger">Estrutura padrão
+                                        do CSS</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
 
     <footer class="bg-danger">
         <div class="">
